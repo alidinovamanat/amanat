@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="kg">
+<head>
+<meta charset="UTF-8">
+<title>Проекттерди башкаруу тест</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Фон анимация -->
+  <div class="animation-background"></div>
+
+  <div id="intro">
+    <h1>Проекттерди башкаруу тест</h1>
+    <label>Атыңызды киргизиңиз:</label><br>
+    <input type="text" id="username" placeholder="Мисалы: Аманат">
+    <button onclick="startQuiz()">Баштоо</button>
+  </div>
+
+  <div id="quiz" style="display:none;">
+    <div id="question-container"></div>
+    <div id="explanation"></div>
+    <button id="next-btn" onclick="nextQuestion()">Кийинки</button>
+  </div>
+
+<script src="script.js"></script>
+</body>
+</html>
